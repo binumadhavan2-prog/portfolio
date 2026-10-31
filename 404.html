@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · Binu M</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23070707'/><text x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='900' font-size='32' fill='%23e62e3d'>BM</text></svg>">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; margin: 0; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(160, 14, 30, 0.16), transparent 70%), #070707; color: #f5f5f5; font: 15px/1.7 "JetBrains Mono", Consolas, ui-monospace, monospace; }
+    .term { width: min(560px, 100%); border: 1px solid #242424; border-radius: 12px; overflow: hidden; background: #0a0a0a; box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5), 0 0 50px rgba(230, 46, 61, 0.12); }
+    .bar { display: flex; gap: 6px; padding: 10px 14px; border-bottom: 1px solid #242424; background: #111; }
+    .bar i { width: 10px; height: 10px; border-radius: 50%; background: #ff5f57; } .bar i:nth-child(2) { background: #febc2e; } .bar i:nth-child(3) { background: #28c840; }
+    .body { padding: 20px 22px 24px; }
+    .p { color: #e62e3d; } .m { color: #a1a1aa; } .big { font-size: 64px; font-weight: 700; line-height: 1.1; margin: 14px 0 4px; background: linear-gradient(90deg, #e62e3d, #ff6a5c); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    a { display: inline-block; margin-top: 18px; padding: 10px 20px; border-radius: 999px; color: #fff; text-decoration: none; font-weight: 700; background: linear-gradient(90deg, #e62e3d, #ff5a4f); box-shadow: 0 0 24px rgba(230, 46, 61, 0.3); }
+    .c { display: inline-block; width: 9px; height: 1.05em; vertical-align: -2px; background: #e62e3d; animation: b 1s steps(1) infinite; }
+    @keyframes b { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <main class="term">
+    <div class="bar"><i></i><i></i><i></i></div>
+    <div class="body">
+      <div><span class="p">binu@dev</span>:~$ cd <span id="path">this-page</span></div>
+      <div class="m">bash: cd: no such file or directory</div>
+      <div class="big">404</div>
+      <div class="m">This page doesn't exist (yet). Let's get you back.</div>
+      <a href="/">cd ~/portfolio</a>
+      <div style="margin-top:18px"><span class="p">binu@dev</span>:~$ <span class="c"></span></div>
+    </div>
+  </main>
+  <script>document.getElementById('path').textContent = location.pathname.replace(/^\//, '') || 'this-page';</script>
+</body>
+</html>

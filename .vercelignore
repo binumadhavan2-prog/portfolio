@@ -4,3 +4,5 @@ resume/
 .gitignore
 .vercelignore
 README.md
+.env*
+.vercel

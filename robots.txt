@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://binu-m.vercel.app/sitemap.xml
