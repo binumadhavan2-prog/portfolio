@@ -1,0 +1,6 @@
+# Not published: resume source (the PDF in assets/ is the public copy) and repo files
+resume/
+.git
+.gitignore
+.vercelignore
+README.md

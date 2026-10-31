@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Binu M — Full-Stack Web Developer — Resume</title>
+<!-- Source for assets/Binu_M_Resume.pdf. Re-export with Edge/Chrome: Print > Save as PDF (A4, no headers/footers),
+     or headless: msedge --headless --no-pdf-header-footer --print-to-pdf=out.pdf resume.html -->
+<style>
+  @page { size: A4; margin: 13mm 14mm 12mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 9.2pt; line-height: 1.38; color: #111; }
+  a { color: inherit; text-decoration: none; }
+  h1 { font-size: 21pt; letter-spacing: 0.02em; color: #1f2a44; }
+  .title { font-size: 10.5pt; color: #b3122a; margin-top: 1px; }
+  .contact { margin-top: 5px; color: #333; }
+  .contact span + span::before { content: " | "; color: #999; }
+  h2 { font-size: 10.5pt; text-transform: uppercase; letter-spacing: 0.04em; color: #1f2a44; border-bottom: 1.2px solid #b3122a; padding-bottom: 2px; margin: 11px 0 5px; }
+  p { margin: 0; }
+  ul { margin: 2px 0 0 14px; }
+  li { margin: 1px 0; }
+  .item { margin-top: 6px; break-inside: avoid; }
+  .row { display: flex; justify-content: space-between; gap: 12px; }
+  .row b { color: #1f2a44; }
+  .meta { color: #555; font-style: italic; }
+  .stack { color: #444; }
+  .link { color: #b3122a; }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 1px 0; vertical-align: top; }
+  td:first-child { width: 128px; font-weight: bold; color: #1f2a44; }
+  .two { display: flex; gap: 28px; }
+  .two > div { flex: 1; }
+</style>
+</head>
+<body>
+  <h1>BINU M</h1>
+  <p class="title">Full-Stack Web Developer | Python Developer</p>
+  <p class="contact">
+    <span><a href="tel:+917994839911">+91 7994839911</a></span><span><a href="mailto:binumadhavan2@gmail.com">binumadhavan2@gmail.com</a></span><span>Palakkad, Kerala, India</span>
+  </p>
+  <p class="contact">
+    <span><a href="https://www.linkedin.com/in/binu-madhavan-734a99251">linkedin.com/in/binu-madhavan-734a99251</a></span><span><a href="https://github.com/binumadhavan2-prog">github.com/binumadhavan2-prog</a></span>
+  </p>
+
+  <h2>Professional Summary</h2>
+  <p>Full-stack web developer at Onwords Private Limited building production web applications with React, Next.js, NestJS, Python and PostgreSQL/Supabase. Built a client website (Kalyan Finance), a trial interior-design site (Neema Homes) and a production direct-selling platform with online payments, payouts and a commission engine. Also builds AI tools with the Claude API (retrieval-augmented answers, ticket triage) and Windows and Android apps. Works with Git/GitHub and GitHub Actions, and deploys to Vercel, Cloudflare and Supabase.</p>
+
+  <h2>Professional Experience</h2>
+  <div class="item">
+    <div class="row"><b>Web Developer — Onwords Private Limited</b><span class="meta">Chinniyampalayam, Coimbatore | 2026 – Present</span></div>
+    <ul>
+      <li>Develop and maintain responsive websites and web applications based on project requirements.</li>
+      <li>Work across frontend and backend development, including Python-based web functionality and REST APIs.</li>
+      <li>Design user-friendly responsive interfaces and integrate frontend components with backend functionality and APIs.</li>
+      <li>Work with databases and SQL for application data management; debug, test and improve website and application features.</li>
+    </ul>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="item">
+    <div class="row"><b>Mutual Aid House — Direct Selling Platform (client project, built at Onwords)</b><a class="link" href="https://mutual-aid-house.vercel.app">mutual-aid-house.vercel.app</a></div>
+    <p class="stack">NestJS, Prisma, PostgreSQL, Next.js, Cashfree Checkout &amp; Payouts, GitHub Actions, Supabase Edge Functions, Cloudflare Pages</p>
+    <ul>
+      <li>Built a product shop with Cashfree checkout, a member network with a binary commission engine, and wallets paid out to bank or UPI after KYC.</li>
+      <li>Implemented refunds with commission clawback, scheduled payout jobs, an admin panel (members, genealogy tree, commissions, payouts, KYC, Excel reports) and a member area.</li>
+      <li>Stored money as integer paise; added unit, end-to-end API and browser UI tests; automated deployment with GitHub Actions.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>Neema Homes — Interior Design Website (trial project at Onwords, not launched)</b><a class="link" href="https://neema-homes-nine.vercel.app">neema-homes-nine.vercel.app</a></div>
+    <p class="stack">React 19, Vite, Supabase (Auth, Row-Level Security, Storage), Vercel</p>
+    <ul>
+      <li>Developed a responsive website for an interior design and modular kitchen business with room pages, project gallery, hero slider and a price calculator.</li>
+      <li>Built a private admin dashboard to manage gallery content and enquiries in Supabase, secured with Supabase Auth and row-level security; tracked the schema as migrations.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>Kalyan Finance — Finance Website (client project, built at Onwords)</b><a class="link" href="https://kalyan-finance.vercel.app">kalyan-finance.vercel.app</a></div>
+    <p class="stack">React 19, React Router, Vite, Vercel</p>
+    <ul>
+      <li>Developed a multi-page responsive finance website with an English/Tamil language toggle, a loan repayment calculator, a video hero and a validated enquiry form.</li>
+      <li>Worked on colour systems, visual assets, customer-focused content structure and SEO-friendly page organisation.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>Support Pilot AI — AI Support &amp; Operations Copilot (personal project)</b><a class="link" href="https://github.com/binumadhavan2-prog/support-pilot-ai">github.com/binumadhavan2-prog/support-pilot-ai</a></div>
+    <p class="stack">Next.js 16, TypeScript, PostgreSQL + pgvector, Drizzle ORM, Claude API, Tailwind CSS, Docker</p>
+    <ul>
+      <li>Ticket system where Claude triages tickets and drafts replies grounded in company documents with source citations; a human approves every reply.</li>
+      <li>Multilingual retrieval (English, Hinglish, Tanglish) with local embeddings and pgvector; role-based access, multi-tenancy, SLA timers and analytics.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>Kavacham — Windows Security &amp; Cleanup App (personal project)</b></div>
+    <p class="stack">Python, Tkinter, Windows APIs, PowerShell, ADB</p>
+    <ul>
+      <li>Antivirus companion combining Microsoft Defender scans with its own engine (SHA-256 signatures, heuristics, quarantine), URL reputation from threat feeds, USB and Android phone scanning, a security checkup and junk cleaning.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>Monkey Play — Desktop &amp; Android Companion (personal project)</b><a class="link" href="https://github.com/binumadhavan2-prog/monkey-play">github.com/binumadhavan2-prog/monkey-play</a></div>
+    <p class="stack">C#, Java (Android), Open-Meteo API, Claude Code</p>
+    <ul>
+      <li>Animated desktop companion with reminders, music-reactive dancing, weather forecasts and an AI chat; released as a Windows app and an Android app.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="row"><b>BIGMART — Online Grocery Management Web Application</b><span class="meta">Academic Project, Luminar Technolab, Kochi | 2022 – 2023</span></div>
+    <p class="stack">Python, SQL, MySQL, HTML, CSS</p>
+    <ul>
+      <li>Designed and developed a web application for online grocery transactions and product management with database-driven functionality.</li>
+    </ul>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <table>
+    <tr><td>Languages</td><td>Python, JavaScript, TypeScript, SQL, C#, Java</td></tr>
+    <tr><td>Frontend</td><td>HTML, CSS, React, Next.js, Tailwind CSS, Vite, Responsive Web Design</td></tr>
+    <tr><td>Backend</td><td>NestJS, Node.js, REST APIs, Prisma, Drizzle ORM</td></tr>
+    <tr><td>Databases</td><td>PostgreSQL, MySQL, Supabase (Auth, RLS, Storage), pgvector</td></tr>
+    <tr><td>AI</td><td>Claude API, Retrieval-Augmented Generation (RAG), Claude Code</td></tr>
+    <tr><td>Integrations</td><td>Cashfree Checkout &amp; Payouts, Resend email, Open-Meteo</td></tr>
+    <tr><td>Tools &amp; Deployment</td><td>Git, GitHub, GitHub Actions, Docker, VS Code, Vercel, Cloudflare Pages, Supabase Edge Functions</td></tr>
+    <tr><td>Other</td><td>Website Design, UI/UX, Debugging, Testing (unit, end-to-end, browser), SEO Basics</td></tr>
+  </table>
+
+  <div class="two">
+    <div>
+      <h2>Education</h2>
+      <p><b>Bachelor's Degree</b> — SAN International College of Arts and Science, Walayar | 2019 – 2022</p>
+      <p><b>Certificate Course (Full Stack Development)</b> — Luminar Technolab, Kochi | 2022 – 2023</p>
+      <p><b>Python Development Training</b> — Meta Scifor Technologies Pvt Ltd | Nov 2024 – Feb 2025 (Certificate ID: MST25260010)</p>
+      <p><b>Higher Secondary Certificate</b> — GHSS Thenkurissi, Kerala | 2017 – 2019</p>
+      <p><b>SSLC</b> — GHSS Thenkurissi, Kerala | 2017</p>
+    </div>
+    <div>
+      <h2>Core Strengths</h2>
+      <p>Problem Solving • Analytical Thinking • Team Collaboration • Adaptability • Creative Thinking • Continuous Learning</p>
+      <h2>Languages</h2>
+      <p>Malayalam — Native • English — Proficient • Tamil — Proficient • Hindi — Intermediate</p>
+    </div>
+  </div>
+</body>
+</html>
