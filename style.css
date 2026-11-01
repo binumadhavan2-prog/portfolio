@@ -578,10 +578,10 @@ html.cursor-active, html.cursor-active * { cursor: none !important; }
 .shot-img { flex: 1; overflow: hidden; background: #111; }
 .shot-img img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
 .project:hover .shot-img img { transform: scale(1.04); }
+.shot-img img.pos-bottom { object-position: center bottom; }
 .shot-logo { flex: 1; display: grid; place-items: center; background: radial-gradient(circle at 50% 45%, #0f3d24, #04130b 70%); }
 .shot-logo img { width: 44%; height: auto; border-radius: 18px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
 .shot-pilot .shot-body { background: linear-gradient(0deg, rgba(0,0,0,0.55), transparent 70%), radial-gradient(circle at 80% 20%, #e62e3d, transparent 55%), linear-gradient(135deg, #1b1b22, #0b0b10); }
-.shot-monkey .shot-body { background: linear-gradient(0deg, rgba(0,0,0,0.5), transparent 70%), linear-gradient(135deg, #a8642c, #5a3216 55%, #1f1108); }
 .project-info { display: flex; flex-direction: column; flex: 1; }
 .project-info .pills { margin-bottom: 16px; }
 .project-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: auto; font-size: 0.75rem; }
