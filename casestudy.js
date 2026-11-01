@@ -19,20 +19,6 @@
       ],
       flow: ['Customer order', 'Cashfree checkout', 'Commission engine', 'Member wallet', 'KYC check', 'Bank / UPI payout'],
     },
-    carys: {
-      title: 'Carys Wedding',
-      aliases: ['carys-wedding', 'caryswedding', 'carys', 'weday', 'weday.in'],
-      kind: 'Wedding Vendor Marketplace (WeDay.in) · Team Project at Onwords · in development',
-      overview: 'A wedding vendor marketplace for Carys Wedding Events, built by a team at Onwords and still in development. My part was the Razorpay payment integration, plus testing and debugging across the app.',
-      built: [
-        'Razorpay Checkout for vendor listing fees, replacing the mock payment.',
-        'Server-side verification of the Razorpay signature before a listing goes for approval.',
-        'One idempotent capture step shared by Checkout and the webhook, so a payment is never counted twice.',
-        'A mock payment mode kept for local runs without Razorpay keys.',
-        'Testing and debugging: fixed broken drawer scrolling, empty API responses, a stale listing fee shown before load, and console and lint warnings.',
-      ],
-      flow: ['Vendor clicks Pay', 'Razorpay Checkout', 'Signed response', 'Server verifies signature', 'Payment captured once', 'Listing sent for approval'],
-    },
     neema: {
       title: 'Neema Homes',
       aliases: ['neema-homes', 'neemahomes'],
