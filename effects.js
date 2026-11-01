@@ -54,7 +54,7 @@
       io.unobserve(e.target);
       const el = e.target, end = +el.dataset.count, dur = 1100, t0 = performance.now();
       const tick = now => {
-        const p = Math.min((now - t0) / dur, 1);
+        const p = Math.min(Math.max((now - t0) / dur, 0), 1);   // first frame's timestamp can predate t0
         el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
         if (p < 1) requestAnimationFrame(tick);
       };
