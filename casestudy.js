@@ -19,6 +19,21 @@
       ],
       flow: ['Customer order', 'Cashfree checkout', 'Commission engine', 'Member wallet', 'KYC check', 'Bank / UPI payout'],
     },
+    carys: {
+      title: 'Carys Wedding',
+      aliases: ['carys-wedding', 'caryswedding', 'carys', 'weday', 'weday.in'],
+      kind: 'Wedding Vendor Marketplace (WeDay.in) · Client Project · built at Onwords',
+      overview: 'A wedding marketplace for Carys Wedding Events. Couples pick a category, a city and their date to see which vendors are free, then enquire or book. Vendors run their listings from their own portal, and the Weday team runs everything from an admin area.',
+      built: [
+        'Three roles (customer, vendor, owner/staff) with mobile OTP login and server-side permission checks on every endpoint.',
+        'Vendor registration with an owner approval gate before listings go live.',
+        'Package availability per date: available, enquiry required or booked, with a double-booking guard.',
+        'Razorpay checkout for listing fees, confirmed only by a signature-verified webhook.',
+        'Enquiries with customer and vendor chat, plus the Weday Assist concierge for couples who want the team to source vendors.',
+        'Performance work: site images cut from 49 MB to 5.5 MB, vendor uploads converted to WebP on the server, retries when the API or database is briefly unreachable.',
+      ],
+      flow: ['Couple', 'Category · city · date', 'Available vendors', 'Enquiry & chat', 'Vendor confirms', 'Razorpay payment'],
+    },
     neema: {
       title: 'Neema Homes',
       aliases: ['neema-homes', 'neemahomes'],
