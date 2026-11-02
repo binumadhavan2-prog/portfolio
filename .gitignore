@@ -5,3 +5,6 @@ Thumbs.db
 
 .vercel
 .env*
+
+# job-specific resumes (contain phone number; not published)
+resume/tailored/
