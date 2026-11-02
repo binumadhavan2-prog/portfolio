@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
 
+# AI assistants and search crawlers are welcome to read this portfolio.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://binu-m.vercel.app/sitemap.xml

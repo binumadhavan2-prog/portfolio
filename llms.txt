@@ -1,0 +1,43 @@
+# Binu M (Binu Madhavan)
+
+> Full-stack and AI developer in Coimbatore, Tamil Nadu, India. Web Developer at Onwords Private Limited since 2026. Builds production web applications with React, Next.js, NestJS, Prisma and PostgreSQL, and AI tools with the Claude API and retrieval-augmented generation (RAG). Open to full-stack, AI engineer and Python developer roles in Coimbatore (office or hybrid) or remote in India.
+
+- Portfolio: https://binu-m.vercel.app
+- Recruiter summary (30 seconds): https://binu-m.vercel.app/?view=recruiter
+- Resume (PDF): https://binu-m.vercel.app/assets/Binu_M_Resume.pdf
+- GitHub: https://github.com/binumadhavan2-prog
+- LinkedIn: https://www.linkedin.com/in/binu-madhavan-734a99251
+- Email: binumadhavan2@gmail.com
+- Based in: Coimbatore, Tamil Nadu (works) and Palakkad, Kerala (home)
+- Languages: Malayalam (native), English, Tamil, Hindi
+
+## Skills
+
+- Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS, Vite, responsive design
+- Backend: NestJS, Node.js, REST APIs, Prisma, Drizzle ORM
+- Databases: PostgreSQL, MySQL, Supabase (Auth, row-level security, Storage), pgvector
+- AI: Claude API, retrieval-augmented generation (RAG), embeddings, LLM evaluation, prompt-injection defences
+- Payments: Cashfree Checkout and Payouts, Razorpay
+- Testing and DevOps: unit, end-to-end and browser tests; Git, GitHub Actions, Docker, Vercel, Cloudflare Pages
+- Also: Python, C#, Java (Android)
+
+## Experience
+
+- Web Developer, Onwords Private Limited, Coimbatore (2026 to present): builds and maintains client websites and web applications across frontend and backend.
+
+## Projects
+
+- [Mutual Aid House](https://mutual-aid-house.vercel.app): production direct-selling platform for a client, built at Onwords. NestJS + Prisma + PostgreSQL API with a Next.js admin panel, Cashfree checkout, a binary commission engine, KYC-verified bank/UPI payouts, refunds with commission clawback, tests, and GitHub Actions deployment. Code is private.
+- [Support Pilot AI](https://github.com/binumadhavan2-prog/support-pilot-ai): AI support copilot (personal project). Claude triages tickets and drafts replies grounded in company documents with citations; a human approves every reply. RAG with local multilingual embeddings in pgvector, an evaluation harness, PII redaction and prompt-injection defences. Next.js 16, TypeScript, Drizzle, Docker.
+- [Kalyan Finance](https://kalyan-finance.vercel.app): client website built at Onwords. React site with an English/Tamil toggle, a loan repayment calculator and an enquiry form.
+- [Neema Homes](https://neema-homes-nine.vercel.app): interior design website (trial project at Onwords, not launched). React with a Supabase admin dashboard secured by Auth and row-level security.
+- Carys Wedding (WeDay.in): team-built wedding vendor marketplace at Onwords; Binu built the Razorpay payment integration for vendor listing fees and handled testing and debugging.
+- [Kavacham](https://github.com/binumadhavan2-prog/kavacham): Windows security and cleanup app in Python (personal project). Microsoft Defender scans plus its own engine with signatures, heuristics and quarantine; USB and Android phone scanning.
+- [Monkey Play](https://github.com/binumadhavan2-prog/monkey-play): animated desktop companion for Windows and Android with reminders, weather and an AI chat (personal project).
+- BigMart: online grocery management web app in Python and MySQL (academic project, Luminar Technolab, 2022–2023).
+
+## Education
+
+- B.Sc Computer Science, SAN International College of Arts and Science, Walayar (2019–2022)
+- Certificate Course in Full Stack Development, Luminar Technolab, Kochi (2022–2023)
+- Python Development Training, Meta Scifor Technologies (Nov 2024 – Feb 2025)
