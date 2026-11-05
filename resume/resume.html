@@ -29,59 +29,37 @@
   td:first-child { width: 128px; font-weight: bold; color: #1f2a44; }
   .two { display: flex; gap: 28px; }
   .two > div { flex: 1; }
+  .sk { margin: 1px 0; }
+  .sk b { color: #1f2a44; }
 </style>
 </head>
 <body>
   <h1>BINU M</h1>
   <p class="title">Full-Stack Web Developer | Python Developer</p>
   <p class="contact">
-    <span><a href="tel:+917994839911">+91 7994839911</a></span><span><a href="mailto:binumadhavan2@gmail.com">binumadhavan2@gmail.com</a></span><span>Palakkad, Kerala, India</span>
+    <span><a href="tel:+917994839911">+91 7994839911</a></span><span><a href="mailto:binumadhavan2@gmail.com">binumadhavan2@gmail.com</a></span><span>Coimbatore, Tamil Nadu / Palakkad, Kerala</span>
   </p>
   <p class="contact">
     <span><a href="https://www.linkedin.com/in/binu-madhavan-734a99251">linkedin.com/in/binu-madhavan-734a99251</a></span><span><a href="https://github.com/binumadhavan2-prog">github.com/binumadhavan2-prog</a></span><span><a href="https://binu-m.vercel.app">binu-m.vercel.app</a></span>
   </p>
 
   <h2>Professional Summary</h2>
-  <p>Full-stack web developer at Onwords Private Limited building production web applications with React, Next.js, NestJS, Python and PostgreSQL/Supabase. Built a client website (Kalyan Finance), a trial interior-design site (Neema Homes) and a production direct-selling platform with online payments, payouts and a commission engine. Also builds AI tools with the Claude API (retrieval-augmented answers, ticket triage) and Windows and Android apps. Works with Git/GitHub and GitHub Actions, and deploys to Vercel, Cloudflare and Supabase.</p>
+  <p>Full-stack web developer at Onwords Private Limited building production web applications with React, Next.js, NestJS, Python and PostgreSQL/Supabase. Built a production direct-selling platform with online payments, payouts and a commission engine, plus client websites. Also builds AI tools with the Claude API (retrieval-augmented answers, ticket triage) and Windows and Android apps. Works with Git/GitHub and GitHub Actions, and deploys to Vercel, Cloudflare and Supabase.</p>
 
   <h2>Professional Experience</h2>
   <div class="item">
     <div class="row"><b>Web Developer — Onwords Private Limited</b><span class="meta">Chinniyampalayam, Coimbatore | 2026 – Present</span></div>
     <ul>
-      <li>Develop and maintain responsive websites and web applications based on project requirements.</li>
-      <li>Work across frontend and backend development, including Python-based web functionality and REST APIs.</li>
-      <li>Design user-friendly responsive interfaces and integrate frontend components with backend functionality and APIs.</li>
-      <li>Work with databases and SQL for application data management; debug, test and improve website and application features.</li>
-      <li>Carys Wedding (WeDay.in), a wedding vendor marketplace built by the team: integrated Razorpay payments for vendor listing fees with server-side signature verification, and handled testing and debugging.</li>
+      <li><b>Mutual Aid House</b> (production client platform, <a class="link" href="https://mutual-aid-house.vercel.app">mutual-aid-house.vercel.app</a>): built a NestJS + Prisma + PostgreSQL REST API with a Next.js admin panel and member area, Cashfree checkout, a binary commission engine, and wallets paid out to bank or UPI after KYC.</li>
+      <li>Implemented refunds with commission clawback, scheduled payout jobs and an admin panel (members, genealogy tree, commissions, payouts, KYC, Excel reports); stored money as integer paise.</li>
+      <li>Added unit, end-to-end API and browser UI tests, and automated deployment with GitHub Actions to Supabase Edge Functions and Cloudflare Pages.</li>
+      <li><b>Kalyan Finance</b> (client website, <a class="link" href="https://kalyan-finance.vercel.app">kalyan-finance.vercel.app</a>): multi-page responsive React site with an English/Tamil toggle, a loan repayment calculator, a validated enquiry form and SEO-friendly page structure.</li>
+      <li><b>Neema Homes</b> (trial project, not launched, <a class="link" href="https://neema-homes-nine.vercel.app">neema-homes-nine.vercel.app</a>): React site for an interior design business with a gallery, price calculator and a Supabase admin dashboard secured by Auth and row-level security.</li>
+      <li><b>Carys Wedding (WeDay.in)</b>, a wedding vendor marketplace built by the team: integrated Razorpay payments for vendor listing fees with server-side signature verification, and handled testing and debugging.</li>
     </ul>
   </div>
 
   <h2>Projects</h2>
-  <div class="item">
-    <div class="row"><b>Mutual Aid House — Direct Selling Platform (client project, built at Onwords)</b><a class="link" href="https://mutual-aid-house.vercel.app">mutual-aid-house.vercel.app</a></div>
-    <p class="stack">NestJS, Prisma, PostgreSQL, Next.js, Cashfree Checkout &amp; Payouts, GitHub Actions, Supabase Edge Functions, Cloudflare Pages</p>
-    <ul>
-      <li>Built a product shop with Cashfree checkout, a member network with a binary commission engine, and wallets paid out to bank or UPI after KYC.</li>
-      <li>Implemented refunds with commission clawback, scheduled payout jobs, an admin panel (members, genealogy tree, commissions, payouts, KYC, Excel reports) and a member area.</li>
-      <li>Stored money as integer paise; added unit, end-to-end API and browser UI tests; automated deployment with GitHub Actions.</li>
-    </ul>
-  </div>
-  <div class="item">
-    <div class="row"><b>Neema Homes — Interior Design Website (trial project at Onwords, not launched)</b><a class="link" href="https://neema-homes-nine.vercel.app">neema-homes-nine.vercel.app</a></div>
-    <p class="stack">React 19, Vite, Supabase (Auth, Row-Level Security, Storage), Vercel</p>
-    <ul>
-      <li>Developed a responsive website for an interior design and modular kitchen business with room pages, project gallery, hero slider and a price calculator.</li>
-      <li>Built a private admin dashboard to manage gallery content and enquiries in Supabase, secured with Supabase Auth and row-level security; tracked the schema as migrations.</li>
-    </ul>
-  </div>
-  <div class="item">
-    <div class="row"><b>Kalyan Finance — Finance Website (client project, built at Onwords)</b><a class="link" href="https://kalyan-finance.vercel.app">kalyan-finance.vercel.app</a></div>
-    <p class="stack">React 19, React Router, Vite, Vercel</p>
-    <ul>
-      <li>Developed a multi-page responsive finance website with an English/Tamil language toggle, a loan repayment calculator, a video hero and a validated enquiry form.</li>
-      <li>Worked on colour systems, visual assets, customer-focused content structure and SEO-friendly page organisation.</li>
-    </ul>
-  </div>
   <div class="item">
     <div class="row"><b>Support Pilot AI — AI Support &amp; Operations Copilot (personal project)</b><a class="link" href="https://github.com/binumadhavan2-prog/support-pilot-ai">github.com/binumadhavan2-prog/support-pilot-ai</a></div>
     <p class="stack">Next.js 16, TypeScript, PostgreSQL + pgvector, Drizzle ORM, Claude API, Tailwind CSS, Docker</p>
@@ -113,32 +91,24 @@
   </div>
 
   <h2>Technical Skills</h2>
-  <table>
-    <tr><td>Languages</td><td>Python, JavaScript, TypeScript, SQL, C#, Java</td></tr>
-    <tr><td>Frontend</td><td>HTML, CSS, React, Next.js, Tailwind CSS, Vite, Responsive Web Design</td></tr>
-    <tr><td>Backend</td><td>NestJS, Node.js, REST APIs, Prisma, Drizzle ORM</td></tr>
-    <tr><td>Databases</td><td>PostgreSQL, MySQL, Supabase (Auth, RLS, Storage), pgvector</td></tr>
-    <tr><td>AI</td><td>Claude API, Retrieval-Augmented Generation (RAG), Claude Code</td></tr>
-    <tr><td>Integrations</td><td>Cashfree Checkout &amp; Payouts, Razorpay Checkout, Resend email, Open-Meteo</td></tr>
-    <tr><td>Tools &amp; Deployment</td><td>Git, GitHub, GitHub Actions, Docker, VS Code, Vercel, Cloudflare Pages, Supabase Edge Functions</td></tr>
-    <tr><td>Other</td><td>Website Design, UI/UX, Debugging, Testing (unit, end-to-end, browser), SEO Basics</td></tr>
-  </table>
+    <p class="sk"><b>Languages:</b> Python, JavaScript, TypeScript, SQL, C#, Java</p>
+    <p class="sk"><b>Frontend:</b> HTML, CSS, React, Next.js, Tailwind CSS, Vite, Responsive Web Design</p>
+    <p class="sk"><b>Backend:</b> NestJS, Node.js, REST APIs, Prisma, Drizzle ORM</p>
+    <p class="sk"><b>Databases:</b> PostgreSQL, MySQL, Supabase (Auth, RLS, Storage), pgvector</p>
+    <p class="sk"><b>AI:</b> Claude API, Retrieval-Augmented Generation (RAG), Claude Code</p>
+    <p class="sk"><b>Integrations:</b> Cashfree Checkout &amp; Payouts, Razorpay Checkout, Resend email, Open-Meteo</p>
+    <p class="sk"><b>Tools &amp; Deployment:</b> Git, GitHub, GitHub Actions, Docker, VS Code, Vercel, Cloudflare Pages, Supabase Edge Functions</p>
+    <p class="sk"><b>Other:</b> Website Design, UI/UX, Debugging, Testing (unit, end-to-end, browser), SEO Basics</p>
 
-  <div class="two">
-    <div>
-      <h2>Education</h2>
-      <p><b>B.Sc Computer Science</b> — SAN International College of Arts and Science, Walayar | 2019 – 2022</p>
-      <p><b>Certificate Course (Full Stack Development)</b> — Luminar Technolab, Kochi | 2022 – 2023</p>
-      <p><b>Python Development Training</b> — Meta Scifor Technologies Pvt Ltd | Nov 2024 – Feb 2025 (Certificate ID: MST25260010)</p>
-      <p><b>Higher Secondary Certificate</b> — GHSS Thenkurissi, Kerala | 2017 – 2019</p>
-      <p><b>SSLC</b> — GHSS Thenkurissi, Kerala | 2017</p>
-    </div>
-    <div>
-      <h2>Core Strengths</h2>
+  <h2>Education</h2>
+      <p class="sk"><b>B.Sc Computer Science</b> — SAN International College of Arts and Science, Walayar | 2019 – 2022</p>
+      <p class="sk"><b>Certificate Course (Full Stack Development)</b> — Luminar Technolab, Kochi | 2022 – 2023</p>
+      <p class="sk"><b>Python Development Training</b> — Meta Scifor Technologies Pvt Ltd | Nov 2024 – Feb 2025 (Certificate ID: MST25260010)</p>
+      <p class="sk"><b>Higher Secondary Certificate</b> — GHSS Thenkurissi, Kerala | 2017 – 2019</p>
+      <p class="sk"><b>SSLC</b> — GHSS Thenkurissi, Kerala | 2017</p>
+  <h2>Core Strengths</h2>
       <p>Problem Solving • Analytical Thinking • Team Collaboration • Adaptability • Creative Thinking • Continuous Learning</p>
       <h2>Languages</h2>
       <p>Malayalam — Native • English — Proficient • Tamil — Proficient • Hindi — Intermediate</p>
-    </div>
-  </div>
 </body>
 </html>
